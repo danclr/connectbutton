@@ -15,8 +15,24 @@
 	font-variation-settings: 'slnt' 0;
 }
 
+/* globals.css */
+
+body {
+	background-color: black;
+	color: white;
+  }
+  
+  .hidden-button {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+  }
+
+  
 @layer base {
 	body {
-		@apply bg-zinc-950 text-neutral-200;
+		@apply to-black text-neutral-200;
 	}
 }
